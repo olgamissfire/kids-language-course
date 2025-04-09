@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курс китайского и чешского языков для детей</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fef6f1;
+      color: #333;
+    }
+    header {
+      background: #ffcc99;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      animation: slideUp 1.5s ease;
+    }
+    .features, .program, .format, .benefits {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #d67229;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: '⭐';
+      margin-right: 10px;
+    }
+    .cta {
+      text-align: center;
+      background: #ffd7b5;
+      padding: 30px 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .cta a {
+      display: inline-block;
+      background: #ff914d;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      margin: 10px;
+      transition: transform 0.3s ease;
+    }
+    .cta a:hover {
+      transform: scale(1.05);
+    }
+    .characters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .characters img {
+      width: 150px;
+      border-radius: 12px;
+      transition: transform 0.5s;
+    }
+    .characters img:hover {
+      transform: scale(1.1) rotate(2deg);
+    }
+    footer {
+      background: #ffcc99;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      animation: fadeIn 2s ease-in;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      .cta a {
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+      .characters img {
+        width: 120px;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Курс китайского и чешского языков для детей 6–10 лет</h1>
+    <p>Весёлое погружение в два языка и две культуры — за 3 месяца!</p>
+  </header>
+
+  <section class="characters">
+    <img src="hou_bao_zi.png" alt="Хоу Бао Цзы - герой курса">
+    <img src="josefek.png" alt="Йозефек - чешский герой">
+    <img src="decor_china.png" alt="Китайские декорации">
+    <img src="decor_czech.png" alt="Чешские декорации">
+  </section>
+
+  <section class="features">
+    <h2>Почему стоит начать сейчас?</h2>
+    <ul>
+      <li>Развитие памяти, мышления и воображения</li>
+      <li>Лёгкое запоминание иностранных звуков и слов</li>
+      <li>Фундамент для учёбы, путешествий и общения в будущем</li>
+    </ul>
+  </section>
+
+  <section class="program">
+    <h2>Что входит в курс?</h2>
+    <ul>
+      <li>24 занятия (12 китайских, 12 чешских)</li>
+      <li>Игровые уроки с песнями, движением, комиксами</li>
+      <li>100+ слов и выражений по темам: семья, еда, дом, погода и др.</li>
+      <li>Карточки, задания, аудиоистории и мини-игры</li>
+      <li>Сказочные герои Хоу Бао Цзы и Йозефек</li>
+    </ul>
+  </section>
+
+  <section class="format">
+    <h2>Как проходит обучение?</h2>
+    <ul>
+      <li>2 занятия в неделю по 45–60 минут</li>
+      <li>Онлайн в Zoom или офлайн-группы</li>
+      <li>Небольшие группы до 6 детей</li>
+      <li>PDF-домашки, стикеры, грамоты</li>
+      <li>Доступ к записям занятий</li>
+    </ul>
+  </section>
+
+  <section class="benefits">
+    <h2>Что получает ребёнок?</h2>
+    <ul>
+      <li>Уверенность при общении на иностранных языках</li>
+      <li>Развитие любознательности и кругозора</li>
+      <li>Знакомство с культурой Китая и Чехии</li>
+      <li>Первые шаги к многоязычию</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <a href="https://t.me/yourtelegram" target="_blank">Telegram</a>
+    <a href="https://wa.me/yourwhatsapp" target="_blank">WhatsApp</a>
+  </div>
+
+  <footer>
+    © 2025 Языковая программа для детей. Все права защищены.
+  </footer>
+</body>
+</html>
